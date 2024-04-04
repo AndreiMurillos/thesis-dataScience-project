@@ -1,0 +1,55 @@
+Sitios Web de Interes
+https://www.kaggle.com/
+https://www.statsmodels.org/stable/tsa.html
+https://scikit-learn.org/stable/index.html
+
+Para mi proyecto de tesina, estamos trabajando con el tema "Comparacion de algoritmos de aprendizaje automatico para la prediccion de lluvias del estado de Aguascalientes", donde el objetivo es comparar dos algoritmos en la prediccion de la precipitacion promedio que cae cada mes.
+
+El dataset con el que vamos a trabajar esta dividido en 3 regiones, la idea es por cada region hacer la comparacion de los dos algoritmos, cada region tiene registros de parametros como precipitacion, evaporacion, temperatura maxima y temperatura minima, todos siendo promedios mensuales, ademas cada region tiene registros del año 2000 a 2021, cada año tiene sus 12 meses que estan numerados acorde al mes respectivo. 
+
+Los datos de entrenamiento para cada region son los registros de los años que van del 2000 al 2016, mientras que el resto, son nuestros años de prueba.
+
+Queremos usar el algoritmo random forest y las series de tiempo para hacer esta comparacion.
+
+Lo que quiero es: 
+Como puedo implementar estos 2 algoritmos.
+Que los resultados de cada algoritmo demuestren la cantidad de lluvia predecida, y ademas el porcentaje de acierto con respecto a los resultados de prueba, esto por cada region.
+Sugerencias de otros algoritmos que puedan ser mejores para esta comparacion.
+El dataset contiene registros vacios solamente en los años de prueba, no en los de entrenamiento, esto afecta en algo?
+
+*Poner X_train en la funcion predict asignada a la variable pronostico.
+*Eje horizontal, precipitacion de entrenamiento, vertical los pronosticos obtenidos con los datos de entrenamiento.
+
+
+*rellenar huecos con el promedio de los datos que si tengo de la caracteristica particular del mes correspendienste 
+
+Tiempo de ejecucion de cada algoritmo.
+
+Series de tiempo 
+RNN
+Regresion Lineal
+
+Agregar Standard Scaler a los otros 2 algoritmos
+Probar menos neuronas
+Calcular erro cuadratico medio.
+
+--------------------------------------------------------------------------------------------------------
+
+*Seguir jugando con los parametros (leer chat)
+*Generar una tabla comparativa con cada algoritmo en base al cambio de sus parametros
+*Generar las tablas y graficas finales, con los parametros optimos de cada algoritmo
+
+-------------------------------------------------------------------------------------------------------------------
+*Tomar aleatoriamente 80% de los datos de entrenamiento, ese 80% tiene que tener 13 meses por mes, hacer las pruebas 15 veces, con cada algoritmo y sus vertientes de parametros.
+*Una grafica por vertiente, cada grafica tiene las 15 pruebas RMSE y R2 POR ALGORITMO
+*TABLA
+Algoritmo	Region N ....
+RF50		26.79 (3.67)
+RFN		RMSE(Desviacion estandar)	
+
+--------------------------------------------------------------------------------------------------------------------
+ANOVA (Analysis of Variants) para 2 factores 	investigar en python 
+un factor por columna (Comparar cual region de todas tiene el mejor performance) 3 reultados |  otro por fila (comparar el algoritmo con cada region) 12 resultados
+
+	
+
